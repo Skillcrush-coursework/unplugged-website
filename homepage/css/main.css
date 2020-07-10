@@ -87,7 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* General styles */
+/* Global styles */
 
 html {
   font-size: 16px;
@@ -140,6 +140,14 @@ address {
   margin: 50px 0;
 }
 
+img {
+  width: 100%;
+
+}
+
+figure {
+  margin: 0;
+}
 
 /* ------------ base header - footer styles -------------- */
 
@@ -154,6 +162,11 @@ footer {
 
 header {
   padding: 15px 0;
+
+}
+
+header figure {
+  width: 60%;
 
 }
 
@@ -234,6 +247,10 @@ footer .copyright {
 
 
 .hero-area {
+  background: url(../img/hero-image.jpg) center no-repeat #333;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -288,6 +305,10 @@ input[type=button] {
 /* Features */
 
 .features {
+  background-image: url(../img/camping-food-image.jpg);
+  background-size: cover;
+   background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
