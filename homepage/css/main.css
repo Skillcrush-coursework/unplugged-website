@@ -224,6 +224,7 @@ footer .content-wrapper {
   margin: 50px 0;
 }
 
+
 footer .contact {
   margin-bottom: 50px;
 }
@@ -235,6 +236,10 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -626,6 +631,7 @@ aside .content-wrapper .form {
     width: 85%;
   }
 
+.reviews article figure,
 .reviews article div {
   width: 49%;
 }
@@ -642,7 +648,7 @@ footer .content-wrapper {
   margin: 100px 0;
 }
 
-.footer-content {
+footer .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -651,6 +657,21 @@ footer .content-wrapper {
 
 footer .contact {
       margin-bottom: 0;
+
+    }
+
+footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
+}
+
+  footer p {
+      line-height: 1.285;
     }
 
 footer .copyright {
