@@ -103,6 +103,8 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: none;
+  padding: none;
 }
 
 a {
@@ -564,7 +566,7 @@ header .content-wrapper {
 }
 
 header figure {
-    width: 30%;
+    width: 20%;
   }
 
 header nav {
@@ -726,6 +728,11 @@ FAQ Page
         width: 100%;
     }
 
+ .faq h4, .faq p {
+  font-size: 0.875em;
+
+}
+
 /* ----------------- End of tablet styles -------------------*/
 
 
@@ -810,7 +817,8 @@ About Page
 
 .mission h2,
     .contact-section .content-wrapper h2 {
-        width: 95%
+        width: 95%;
+        font-size: 3em;
     }
 
 /*=====================================================================
