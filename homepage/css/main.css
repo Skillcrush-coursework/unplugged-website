@@ -658,6 +658,7 @@ About Page
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
 }
 
 .mission-content p {
@@ -665,9 +666,22 @@ About Page
 }
 
 .contact-section .content-wrapper h2 {
-  width: 90%;
+  width: 80%;
 }
 
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact-content h4 {
+  font-size: 1.5em;
+}
+
+.map figure {
+  padding-bottom: 45%;
+}
 
 /*=====================================================================
 FAQ Page
@@ -694,14 +708,33 @@ FAQ Page
 
 /* general styles */
 
+header {
+    padding: 15px 0;
+  }
+
 .content-wrapper {
   max-width: 960px;
 
 }  
 
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3,
+  h4 {
+      font-size: 1.875em;
+  }
+
+  p {
+      font-size: 1.125em;
+      line-height: 1.333;
+  }
+
 /* Hero area */
 .hero-area h1 {
-  width: 70%
+  font-size: 3.75em;
+  width: 80%
 }
 
 
@@ -743,6 +776,11 @@ aside .content-wrapper .form {
 /*=====================================================================
 About Page
 =======================================================================*/
+
+.map figure {
+  padding-bottom: 37.5%;
+}
+
 .mission h2,
     .contact-section .content-wrapper h2 {
         width: 95%
